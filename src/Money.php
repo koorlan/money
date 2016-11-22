@@ -120,7 +120,7 @@ class Money implements \JsonSerializable
      */
     public function getAmount()
     {
-        return $this->amount;
+        return $this->amount*2;
     }
 
     /**
